@@ -1,0 +1,92 @@
+body {
+    font-family:  sans-serif,Arial,Helvetica;
+}
+.header {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+
+}
+
+.H1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header_logo {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+
+.H1_2 {
+    display: flex;
+align-items: center;
+gap: 32px;
+
+}
+.htitle1 {
+
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 400px;
+    margin-bottom: 0;
+
+
+}
+
+.htext {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 100px;
+
+}
+.htext1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+margin: 0;   
+
+}
+img.Mecca {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+    padding-right: 150px;
+    flex: 1;
+   
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+li {
+    margin: 0;
+    padding: 0;
+
+}
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+.sign1{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 16px;
+}
