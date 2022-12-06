@@ -1,24 +1,33 @@
 body {
     font-family:  sans-serif,Arial,Helvetica;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .header {
     background: #1F2937;
     display: flex;
     flex-direction: column;
     padding-left: 150px;
+    margin: 0;
+    margin-top: 0px;
 
 }
 
 .H1 {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
+    margin-top: 0;
     
 }
 .header_logo {
     font-size: 48px;
     color: #F9FAF8;
     margin-right: auto;
+    font-weight: 900;
+    
 }
 
 
@@ -58,7 +67,7 @@ margin: 0;
 img.Mecca {
     font-size: 18px;
     color: #E5E7EB;
-    width: 500px;
+    width: 300px;
     padding-right: 150px;
     flex: 1;
    
@@ -90,4 +99,71 @@ a {
     color: white;
     border-radius: 7px;
     padding: 8px 16px;
+}
+/*MAIN 1 STYLE*/
+
+.main1{
+    background: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.infos{
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+.main1 img {
+width: 200px;
+height: 150px;
+border: 3px solid #3882F6;
+border-radius: 7px;
+}
+
+.main1 .text {
+    width: 150px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.groupe.img {
+    max-width: 300px;
+}
+
+.main2{
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    
+
+}
+.verse {
+    font-size: 36px;
+font-style: italic;    
+color: #24292f;
+width: 600px;
+margin-bottom: 0;
+
+}
+.quote {
+    width: 600px;
+text-align: right;
+color: #0a1018;
+font-weight: bold;
+font-size: 24px;
 }
