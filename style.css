@@ -27,6 +27,7 @@ body {
     color: #F9FAF8;
     margin-right: auto;
     font-weight: 900;
+    padding-top: 8px;
     
 }
 
@@ -80,6 +81,7 @@ ul {
     gap: 24px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 8px;
 
 }
 
