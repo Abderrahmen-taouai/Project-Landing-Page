@@ -227,6 +227,7 @@ color: white;
   color: white;
   gap: 4px;
   flex-direction: column;
+  background: #1F2937;
 }
 
 .author {
